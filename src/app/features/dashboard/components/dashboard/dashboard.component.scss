@@ -1,0 +1,146 @@
+ .app-container {
+      min-height: 100vh;
+      width: 100vw;
+      background: linear-gradient(135deg, #cee0b1, #408f2a);
+    }
+
+    .app-toolbar {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      color: #333;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+    }
+
+    .toolbar-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    .logo-section {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .app-logo {
+      font-size: 28px;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+    }
+
+    .app-title {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .toolbar-actions {
+      display: flex;
+      align-items: center;
+    }
+
+    .main-content {
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .welcome-section {
+      text-align: center;
+      margin: 40px 0;
+      color: white;
+    }
+
+    .hero-logo {
+      font-size: 4rem;
+      margin-bottom: 20px;
+      
+      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+      img{
+        border-radius: 10px;
+      padding: 5px;
+      background-color: #fff;
+
+      }
+    }
+
+    .welcome-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .welcome-subtitle {
+      font-size: 1.2rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .feature-icons {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .feature-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .feature-icon {
+      font-size: 2rem;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+    }
+
+    .loading-section {
+      text-align: center;
+      padding: 60px 20px;
+      color: white;
+    }
+
+    .loading-spinner {
+      margin-bottom: 20px;
+    }
+
+    .spinner-logo {
+      font-size: 3rem;
+      animation: spin 1s linear infinite;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    @media (max-width: 600px) {
+      .hero-logo {
+        font-size: 3rem;
+      }
+      
+      .welcome-title {
+        font-size: 2rem;
+      }
+      
+      .welcome-subtitle {
+        font-size: 1rem;
+      }
+      
+      .feature-icons {
+        gap: 20px;
+      }
+      
+      .feature-icon {
+        font-size: 1.5rem;
+      }
+      
+      .main-content {
+        padding: 10px;
+      }
+    }
