@@ -1,80 +1,37 @@
-# SmartPodFrontend
-
-## Development server
-
-To start a local development server, run:
-
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
 
-## Please follow this structure
-my-angular-app/
-├── src/
-│   ├── app/
-│   │   ├── core/                     # Core module for singleton services
-│   │   ├── shared/                   # Shared module for reusable components, directives, and pipes
-│   │   ├── features/                 # Feature modules
-│   │   │   ├── feature-a/            # Example feature module
-│   │   │   └── feature-b/            # Another feature module
-│   │   ├── layout/                   # Layout components (header, footer, etc.)
-│   │   ├── components/               # Independent reusable components
-│   │   ├── services/                 # Application-wide services
-│   │   ├── app-routing.module.ts     # Main routing module
-│   │   ├── app.module.ts             # Root module
-│   │   └── app.component.ts          # Root component
-│   ├── assets/                       # Static assets (images, styles, etc.)
-│   ├── environments/                 # Environment configurations
-│   └── index.html                    # Main HTML file
-├── angular.json                      # Angular CLI configuration
-├── package.json                      # Project dependencies
-├── tsconfig.json                     # TypeScript configuration
+# **NutriLens-Frontend**
+
+**NutriLens-Frontend** is a modern Angular-based web application that serves as the user interface for the NutriLens AI-powered nutrition platform.
+It is designed to provide a **smooth, intuitive user experience** while interacting with the backend AI for food recognition and nutritional analysis.
+
+The frontend is currently **live** at: [https://nutri-lens-front.vercel.app/](https://nutri-lens-front.vercel.app/)
+
+---
+
+## 🌟 **Main Features**
+
+* Modern, **responsive UI** with clean design
+* Optimized **UX for image upload and nutritional analysis**
+* Dashboard for viewing analyzed food items and nutrition breakdown
+* Real-time integration with NutriLens backend for AI-based predictions
+* Supports image capture and upload from desktop or mobile devices
+* Dark/light mode and smooth UI transitions
+
+---
+
+## 🛠️ **Tech Stack**
+
+* **Angular** (Frontend Framework)
+* **TypeScript**
+* **HTML / SCSS / CSS**
+* **API integration** with NutriLens backend
+
+---
+
+## 💡 **Purpose**
+
+* Allow users to easily upload food images
+* Display results from AI-powered backend (calories, macronutrients, nutritional info)
+* Provide an intuitive dashboard for tracking multiple food items and insights
+* Deliver a high-quality, modern web experience to end-users
